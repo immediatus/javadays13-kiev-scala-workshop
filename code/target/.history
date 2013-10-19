@@ -1,0 +1,15 @@
+run
+~compile
+run
+~compile
+run
+~run
+console
+run:q
+exit
+console
+run
+~run
+console
+~run
+run
