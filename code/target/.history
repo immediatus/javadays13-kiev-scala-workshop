@@ -13,3 +13,5 @@ run
 console
 ~run
 run
+:q
+exit

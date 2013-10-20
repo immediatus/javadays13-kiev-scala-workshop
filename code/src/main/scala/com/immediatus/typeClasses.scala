@@ -1,7 +1,7 @@
 package com.immediatus
 
 object typeClasses {
-  
+
   trait Functor[F[_]] { self =>
     def map[A, B](fa: F[A])(f: A => B): F[B]
     def apply[A, B](fa: F[A])(f: A => B): F[B] = map(fa)(f)
@@ -13,7 +13,7 @@ object typeClasses {
 
   trait FunctorSyntax[F[_], A] {
     def self: F[A]
-    implicit def def F = Functor[f]
+    implicit def F: Functor[F]
 
     final def map[B](f: A => B): F[B] = F.map(self)(f)
     final def ∘[B](f: A => B): F[B] = F.map(self)(f)
@@ -23,7 +23,7 @@ object typeClasses {
 
   trait ToFunctorTypeClass {
     implicit def toFunctorFunctions[F[_],A](v: F[A])(implicit F0: Functor[F]) =
-      new FunctorTypeClass[F,A] {
+      new FunctorSyntax[F,A] {
         def self = v
         implicit def F: Functor[F] = F0
       }

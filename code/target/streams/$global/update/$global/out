@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/home/yury/work/projects/experiments/}experiments...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/home/yury/work/projects/javadays13-kiev-scala-workshop/code/}experiments...[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: com.immediatus#experiments_2.10;0.1[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
@@ -36,69 +36,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.mongodb#casbah_2.10;2.6.3[0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah_2.10;2.6.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah_2.10;2.6.3 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mSonatype OSS Snapshots: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.mongodb#casbah_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mTypesafe repo: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.mongodb#casbah_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mscala-tools repo: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for org.mongodb#casbah_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom (2.6.3)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8091465063646542656sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah_2.10;2.6.3!casbah_2.10.pom(pom.original) (4591ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah_2.10/2.6.3/jars/casbah_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah_2.10/2.6.3/jars/casbah_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah_2.10/2.6.3/jars/casbah_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Path /org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar not found in group repository "Scala Tools" [id=scala-tools]. url=https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: resource not reachable for org/mongodb#casbah_2.10;2.6.3: res=https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	public: resource not reachable for org/mongodb#casbah_2.10;2.6.3: res=http://repo1.maven.org/maven2/org/mongodb/casbah_2.10/2.6.3/casbah_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.mongodb#casbah_2.10;2.6.3; parsed=org.mongodb#casbah_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah_2.10;2.6.3[0m
 [0m[[0mdebug[0m] [0m	checking org.mongodb#casbah_2.10;2.6.3 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.mongodb#casbah_2.10;2.6.3 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found org.mongodb#casbah_2.10;2.6.3 in scala-tools repo[0m
@@ -113,59 +57,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.mongodb#casbah-commons_2.10;2.6.3[0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-commons_2.10;2.6.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-commons_2.10;2.6.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-commons_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-commons_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-commons_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-commons_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-commons_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-commons_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.mongodb#casbah-commons_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-commons_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.mongodb#casbah-commons_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for org.mongodb#casbah-commons_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom (2.6.3)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp4468071808308198988sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.10;2.6.3!casbah-commons_2.10.pom(pom.original) (3230ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-commons_2.10/2.6.3/jars/casbah-commons_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-commons_2.10/2.6.3/jars/casbah-commons_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-commons_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-commons_2.10/2.6.3/jars/casbah-commons_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-commons_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-commons_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.mongodb#casbah-commons_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.mongodb#casbah-commons_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.mongodb#casbah-commons_2.10;2.6.3; parsed=org.mongodb#casbah-commons_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-commons_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-commons_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-commons_2.10;2.6.3[0m
 [0m[[0mdebug[0m] [0m	checking org.mongodb#casbah-commons_2.10;2.6.3 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.mongodb#casbah-commons_2.10;2.6.3 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found org.mongodb#casbah-commons_2.10;2.6.3 in scala-tools repo[0m
@@ -199,59 +97,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve com.github.nscala-time#nscala-time_2.10;0.2.0[0m
 [0m[[0minfo[0m] [0mResolving com.github.nscala-time#nscala-time_2.10;0.2.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.github.nscala-time#nscala-time_2.10;0.2.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0: tried /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0: tried /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/com.github.nscala-time/nscala-time_2.10/0.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/com.github.nscala-time/nscala-time_2.10/0.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.github.nscala-time#nscala-time_2.10;0.2.0: res=/home/yury/.ivy2/local/com.github.nscala-time/nscala-time_2.10/0.2.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for com.github.nscala-time#nscala-time_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0: tried /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for com/github/nscala-time#nscala-time_2.10;0.2.0: res=https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for com.github.nscala-time#nscala-time_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0: tried /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for com/github/nscala-time#nscala-time_2.10;0.2.0: res=http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for com.github.nscala-time#nscala-time_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0: tried /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for com.github.nscala-time#nscala-time_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom (0.2.0)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0: tried /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp5998110449605574984sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.10;0.2.0!nscala-time_2.10.pom(pom.original) (2805ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/com.github.nscala-time/nscala-time_2.10/0.2.0/jars/nscala-time_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/com.github.nscala-time/nscala-time_2.10/0.2.0/jars/nscala-time_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for com.github.nscala-time#nscala-time_2.10;0.2.0: res=/home/yury/.ivy2/local/com.github.nscala-time/nscala-time_2.10/0.2.0/jars/nscala-time_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for com/github/nscala-time#nscala-time_2.10;0.2.0: res=https://oss.sonatype.org/content/repositories/snapshots/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for com/github/nscala-time#nscala-time_2.10;0.2.0: res=http://repo.typesafe.com/typesafe/releases/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for com.github.nscala-time#nscala-time_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for com.github.nscala-time#nscala-time_2.10;0.2.0[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for com.github.nscala-time#nscala-time_2.10;0.2.0; parsed=com.github.nscala-time#nscala-time_2.10;0.2.0[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0 (resolved by scala-tools repo): /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.github.nscala-time#nscala-time_2.10;0.2.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for com.github.nscala-time#nscala-time_2.10;0.2.0 (resolved by scala-tools repo): /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/ivy-0.2.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: com.github.nscala-time#nscala-time_2.10;0.2.0[0m
 [0m[[0mdebug[0m] [0m	checking com.github.nscala-time#nscala-time_2.10;0.2.0 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: com.github.nscala-time#nscala-time_2.10;0.2.0 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found com.github.nscala-time#nscala-time_2.10;0.2.0 in scala-tools repo[0m
@@ -282,59 +134,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve joda-time#joda-time;2.1[0m
 [0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for joda-time#joda-time;2.1: tried /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for joda-time#joda-time;2.1: tried /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/joda-time/joda-time/2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/joda-time/joda-time/2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for joda-time#joda-time;2.1: res=/home/yury/.ivy2/local/joda-time/joda-time/2.1/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for joda-time#joda-time;2.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for joda-time#joda-time;2.1: tried /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /joda-time/joda-time/2.1/joda-time-2.1.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for joda-time#joda-time;2.1: res=https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for joda-time#joda-time;2.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for joda-time#joda-time;2.1: tried /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for joda-time#joda-time;2.1: res=http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for joda-time#joda-time;2.1[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for joda-time#joda-time;2.1: tried /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for joda-time#joda-time;2.1[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom (2.1)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for joda-time#joda-time;2.1: tried /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp2445610501357342483sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.1!joda-time.pom(pom.original) (3277ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/joda-time/joda-time/2.1/jars/joda-time.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/joda-time/joda-time/2.1/jars/joda-time.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for joda-time#joda-time;2.1: res=/home/yury/.ivy2/local/joda-time/joda-time/2.1/jars/joda-time.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /joda-time/joda-time/2.1/joda-time-2.1.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for joda-time#joda-time;2.1: res=https://oss.sonatype.org/content/repositories/snapshots/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for joda-time#joda-time;2.1: res=http://repo.typesafe.com/typesafe/releases/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for joda-time#joda-time;2.1[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for joda-time#joda-time;2.1[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for joda-time#joda-time;2.1; parsed=joda-time#joda-time;2.1[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for joda-time#joda-time;2.1 (resolved by scala-tools repo): /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: joda-time#joda-time;2.1[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for joda-time#joda-time;2.1 (resolved by scala-tools repo): /home/yury/.ivy2/cache/joda-time/joda-time/ivy-2.1.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: joda-time#joda-time;2.1[0m
 [0m[[0mdebug[0m] [0m	checking joda-time#joda-time;2.1 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: joda-time#joda-time;2.1 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.1 in scala-tools repo[0m
@@ -356,71 +162,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.joda#joda-convert;1.2[0m
 [0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.joda/joda-convert/1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.joda/joda-convert/1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.joda#joda-convert;1.2: res=/home/yury/.ivy2/local/org.joda/joda-convert/1.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/joda/joda-convert/1.2/joda-convert-1.2.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/joda#joda-convert;1.2: res=https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/joda#joda-convert;1.2: res=http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Path /org/joda/joda-convert/1.2/joda-convert-1.2.pom not found in group repository "Scala Tools" [id=scala-tools]. url=https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: resource not reachable for org/joda#joda-convert;1.2: res=https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: no ivy file found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	public: found md file for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom (1.2)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.joda#joda-convert;1.2: tried /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1644587527991436213sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.pom(pom.original) (312ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.joda/joda-convert/1.2/jars/joda-convert.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.joda/joda-convert/1.2/jars/joda-convert.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.joda#joda-convert;1.2: res=/home/yury/.ivy2/local/org.joda/joda-convert/1.2/jars/joda-convert.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/joda/joda-convert/1.2/joda-convert-1.2.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/joda#joda-convert;1.2: res=https://oss.sonatype.org/content/repositories/snapshots/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/joda#joda-convert;1.2: res=http://repo.typesafe.com/typesafe/releases/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Path /org/joda/joda-convert/1.2/joda-convert-1.2.jar not found in group repository "Scala Tools" [id=scala-tools]. url=https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: resource not reachable for org/joda#joda-convert;1.2: res=https://oss.sonatype.org/content/groups/scala-tools/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.joda#joda-convert;1.2[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.joda#joda-convert;1.2; parsed=org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.joda#joda-convert;1.2 (resolved by public): /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.joda#joda-convert;1.2 (resolved by public): /home/yury/.ivy2/cache/org.joda/joda-convert/ivy-1.2.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.joda#joda-convert;1.2[0m
 [0m[[0mdebug[0m] [0m	checking org.joda#joda-convert;1.2 from public against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.joda#joda-convert;1.2 from public[0m
 [0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in public[0m
@@ -437,103 +185,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.slf4j#slf4j-api;1.6.0[0m
 [0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.6.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.6.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-api;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-api;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.slf4j/slf4j-api/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.slf4j/slf4j-api/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.slf4j#slf4j-api;1.6.0: res=/home/yury/.ivy2/local/org.slf4j/slf4j-api/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-api;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/slf4j#slf4j-api;1.6.0: res=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-api;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: found md file for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom (1.6.0)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-api;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: downloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: downloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7781714869134703803sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.pom(pom.original) (1125ms)[0m
-[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-parent;1.6.0 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.6.0 {}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-parent;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-parent/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-parent;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-parent/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.slf4j#slf4j-parent;1.6.0: res=/home/yury/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.slf4j#slf4j-parent;1.6.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-parent;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-parent/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/slf4j#slf4j-parent;1.6.0: res=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.slf4j#slf4j-parent;1.6.0[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-parent;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-parent/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: found md file for org.slf4j#slf4j-parent;1.6.0[0m
-[0m[[0mdebug[0m] [0m		=> http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom (1.6.0)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.slf4j#slf4j-parent;1.6.0: tried /home/yury/.ivy2/cache/org.slf4j/slf4j-parent/ivy-1.6.0.xml[0m
-[0m[[0mdebug[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom ...[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: downloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.slf4j/slf4j-parent/ivy-1.6.0.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: downloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp7428614067059126069sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-parent;1.6.0!slf4j-parent.pom(pom.original) (1536ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/jars/slf4j-parent.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/jars/slf4j-parent.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.slf4j#slf4j-parent;1.6.0: res=/home/yury/.ivy2/local/org.slf4j/slf4j-parent/1.6.0/jars/slf4j-parent.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/slf4j#slf4j-parent;1.6.0: res=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/slf4j#slf4j-parent;1.6.0: res=http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/groups/scala-tools/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Path /org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar not found in group repository "Scala Tools" [id=scala-tools]. url=https://oss.sonatype.org/content/groups/scala-tools/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: resource not reachable for org/slf4j#slf4j-parent;1.6.0: res=https://oss.sonatype.org/content/groups/scala-tools/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	public: resource not reachable for org/slf4j#slf4j-parent;1.6.0: res=http://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.6.0/slf4j-parent-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.slf4j#slf4j-parent;1.6.0; parsed=org.slf4j#slf4j-parent;1.6.0[0m
-[0m[[0mdebug[0m] [0m	checking org.slf4j#slf4j-parent;1.6.0 from Typesafe repo against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: org.slf4j#slf4j-parent;1.6.0 from Typesafe repo[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.slf4j/slf4j-api/1.6.0/jars/slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.slf4j/slf4j-api/1.6.0/jars/slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.slf4j#slf4j-api;1.6.0: res=/home/yury/.ivy2/local/org.slf4j/slf4j-api/1.6.0/jars/slf4j-api.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/slf4j#slf4j-api;1.6.0: res=https://oss.sonatype.org/content/repositories/snapshots/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.slf4j#slf4j-api;1.6.0[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.slf4j#slf4j-api;1.6.0; parsed=org.slf4j#slf4j-api;1.6.0[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-api;1.6.0 (resolved by Typesafe repo): /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.6.0[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.slf4j#slf4j-api;1.6.0 (resolved by Typesafe repo): /home/yury/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.6.0.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.slf4j#slf4j-api;1.6.0[0m
 [0m[[0mdebug[0m] [0m	checking org.slf4j#slf4j-api;1.6.0 from Typesafe repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.slf4j#slf4j-api;1.6.0 from Typesafe repo[0m
 [0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.6.0 in Typesafe repo[0m
@@ -550,59 +208,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.mongodb#mongo-java-driver;2.11.3[0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#mongo-java-driver;2.11.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#mongo-java-driver;2.11.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#mongo-java-driver;2.11.3: tried /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#mongo-java-driver;2.11.3: tried /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/mongo-java-driver/2.11.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/mongo-java-driver/2.11.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#mongo-java-driver;2.11.3: res=/home/yury/.ivy2/local/org.mongodb/mongo-java-driver/2.11.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#mongo-java-driver;2.11.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#mongo-java-driver;2.11.3: tried /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#mongo-java-driver;2.11.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.mongodb#mongo-java-driver;2.11.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#mongo-java-driver;2.11.3: tried /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#mongo-java-driver;2.11.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.mongodb#mongo-java-driver;2.11.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#mongo-java-driver;2.11.3: tried /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for org.mongodb#mongo-java-driver;2.11.3[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom (2.11.3)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#mongo-java-driver;2.11.3: tried /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp9126626806637208838sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.11.3!mongo-java-driver.pom(pom.original) (3011ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/mongo-java-driver/2.11.3/jars/mongo-java-driver.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/mongo-java-driver/2.11.3/jars/mongo-java-driver.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#mongo-java-driver;2.11.3: res=/home/yury/.ivy2/local/org.mongodb/mongo-java-driver/2.11.3/jars/mongo-java-driver.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#mongo-java-driver;2.11.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#mongo-java-driver;2.11.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.mongodb#mongo-java-driver;2.11.3[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.mongodb#mongo-java-driver;2.11.3[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.mongodb#mongo-java-driver;2.11.3; parsed=org.mongodb#mongo-java-driver;2.11.3[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#mongo-java-driver;2.11.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#mongo-java-driver;2.11.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#mongo-java-driver;2.11.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/ivy-2.11.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#mongo-java-driver;2.11.3[0m
 [0m[[0mdebug[0m] [0m	checking org.mongodb#mongo-java-driver;2.11.3 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.mongodb#mongo-java-driver;2.11.3 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found org.mongodb#mongo-java-driver;2.11.3 in scala-tools repo[0m
@@ -652,59 +264,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.mongodb#casbah-core_2.10;2.6.3[0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-core_2.10;2.6.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-core_2.10;2.6.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-core_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-core_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-core_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-core_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-core_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-core_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.mongodb#casbah-core_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-core_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.mongodb#casbah-core_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for org.mongodb#casbah-core_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom (2.6.3)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8933297782227593365sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.10;2.6.3!casbah-core_2.10.pom(pom.original) (2874ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-core_2.10/2.6.3/jars/casbah-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-core_2.10/2.6.3/jars/casbah-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-core_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-core_2.10/2.6.3/jars/casbah-core_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-core_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-core_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.mongodb#casbah-core_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.mongodb#casbah-core_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.mongodb#casbah-core_2.10;2.6.3; parsed=org.mongodb#casbah-core_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-core_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-core_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-core_2.10;2.6.3[0m
 [0m[[0mdebug[0m] [0m	checking org.mongodb#casbah-core_2.10;2.6.3 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.mongodb#casbah-core_2.10;2.6.3 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found org.mongodb#casbah-core_2.10;2.6.3 in scala-tools repo[0m
@@ -730,59 +296,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.mongodb#casbah-query_2.10;2.6.3[0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-query_2.10;2.6.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-query_2.10;2.6.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-query_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-query_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-query_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-query_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-query_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-query_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.mongodb#casbah-query_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-query_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.mongodb#casbah-query_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for org.mongodb#casbah-query_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom (2.6.3)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp5907874213429559212sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.10;2.6.3!casbah-query_2.10.pom(pom.original) (3289ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-query_2.10/2.6.3/jars/casbah-query_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-query_2.10/2.6.3/jars/casbah-query_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-query_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-query_2.10/2.6.3/jars/casbah-query_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-query_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-query_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.mongodb#casbah-query_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.mongodb#casbah-query_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.mongodb#casbah-query_2.10;2.6.3; parsed=org.mongodb#casbah-query_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-query_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-query_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-query_2.10;2.6.3[0m
 [0m[[0mdebug[0m] [0m	checking org.mongodb#casbah-query_2.10;2.6.3 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.mongodb#casbah-query_2.10;2.6.3 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found org.mongodb#casbah-query_2.10;2.6.3 in scala-tools repo[0m
@@ -927,59 +447,13 @@
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.mongodb#casbah-gridfs_2.10;2.6.3[0m
 [0m[[0minfo[0m] [0mResolving org.mongodb#casbah-gridfs_2.10;2.6.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mongodb#casbah-gridfs_2.10;2.6.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-gridfs_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-gridfs_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-gridfs_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-gridfs_2.10/2.6.3/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mongodb#casbah-gridfs_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-gridfs_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: no ivy file found for org.mongodb#casbah-gridfs_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-gridfs_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: no ivy file found for org.mongodb#casbah-gridfs_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: found md file for org.mongodb#casbah-gridfs_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m		=> https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom (2.6.3)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7d78f4dc[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3: tried /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
-[0m[[0mdebug[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp9046057273612368227sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.10;2.6.3!casbah-gridfs_2.10.pom(pom.original) (3099ms)[0m
-[0m[[0mdebug[0m] [0m	 trying /home/yury/.ivy2/local/org.mongodb/casbah-gridfs_2.10/2.6.3/jars/casbah-gridfs_2.10.jar[0m
-[0m[[0mdebug[0m] [0m		tried /home/yury/.ivy2/local/org.mongodb/casbah-gridfs_2.10/2.6.3/jars/casbah-gridfs_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for org.mongodb#casbah-gridfs_2.10;2.6.3: res=/home/yury/.ivy2/local/org.mongodb/casbah-gridfs_2.10/2.6.3/jars/casbah-gridfs_2.10.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Retrieval of /org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar from M2Repository(id=snapshots) is forbidden by repository policy SNAPSHOT. url=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Sonatype OSS Snapshots: resource not reachable for org/mongodb#casbah-gridfs_2.10;2.6.3: res=https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: resource not reachable for org/mongodb#casbah-gridfs_2.10;2.6.3: res=http://repo.typesafe.com/typesafe/releases/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0mno source artifact found for org.mongodb#casbah-gridfs_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0mno javadoc artifact found for org.mongodb#casbah-gridfs_2.10;2.6.3[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for org.mongodb#casbah-gridfs_2.10;2.6.3; parsed=org.mongodb#casbah-gridfs_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.mongodb#casbah-gridfs_2.10;2.6.3[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for org.mongodb#casbah-gridfs_2.10;2.6.3 (resolved by scala-tools repo): /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/ivy-2.6.3.xml[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.mongodb#casbah-gridfs_2.10;2.6.3[0m
 [0m[[0mdebug[0m] [0m	checking org.mongodb#casbah-gridfs_2.10;2.6.3 from scala-tools repo against [none][0m
 [0m[[0mdebug[0m] [0m	module revision kept as first found: org.mongodb#casbah-gridfs_2.10;2.6.3 from scala-tools repo[0m
 [0m[[0mdebug[0m] [0m	found org.mongodb#casbah-gridfs_2.10;2.6.3 in scala-tools repo[0m
@@ -3760,7 +3234,7 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/yury/work/projects/experiments/target/resolution-cache/com.immediatus/experiments_2.10/0.1/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/com.immediatus/experiments_2.10/0.1/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in test: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
@@ -3775,100 +3249,19 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in runtime-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-library;2.10.1 in compile-internal: excluding org.scala-lang#scala-library;2.10.1!scala-library.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.0.0!scalaz-core_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-commons_2.10/jars/casbah-commons_2.10-2.6.3.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1799771015847707235sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-commons_2.10/2.6.3/casbah-commons_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-commons_2.10;2.6.3!casbah-commons_2.10.jar (3901ms)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-core_2.10/jars/casbah-core_2.10-2.6.3.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp8874587047042541997sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-core_2.10/2.6.3/casbah-core_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-core_2.10;2.6.3!casbah-core_2.10.jar (5847ms)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-query_2.10/jars/casbah-query_2.10-2.6.3.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp4738433090222008676sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-query_2.10/2.6.3/casbah-query_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-query_2.10;2.6.3!casbah-query_2.10.jar (6753ms)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/casbah-gridfs_2.10/jars/casbah-gridfs_2.10-2.6.3.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1334928460826122353sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/casbah-gridfs_2.10/2.6.3/casbah-gridfs_2.10-2.6.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#casbah-gridfs_2.10;2.6.3!casbah-gridfs_2.10.jar (5135ms)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/com.github.nscala-time/nscala-time_2.10/jars/nscala-time_2.10-0.2.0.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp5456360590315939723sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/com/github/nscala-time/nscala-time_2.10/0.2.0/nscala-time_2.10-0.2.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.github.nscala-time#nscala-time_2.10;0.2.0!nscala-time_2.10.jar (4467ms)[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar ...[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: downloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.6.0.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	Typesafe repo: downloading http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp2891238197391245755sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo.typesafe.com/typesafe/releases/org/slf4j/slf4j-api/1.6.0/slf4j-api-1.6.0.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar (1282ms)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.11.3.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp35532720568210338sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/org/mongodb/mongo-java-driver/2.11.3/mongo-java-driver-2.11.3.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mongodb#mongo-java-driver;2.11.3!mongo-java-driver.jar (6386ms)[0m
-[0m[[0mdebug[0m] [0m	 trying https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		tried https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0minfo[0m] [0mdownloading https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar ...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.1.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	scala-tools repo: downloading https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1107733530417877373sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for https://oss.sonatype.org/content/groups/scala-tools/joda-time/joda-time/2.1/joda-time-2.1.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.1!joda-time.jar (5028ms)[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0mdebug[0m] [0m		to /home/yury/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /tmp/ivytmp1757836973546563617sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar (480ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-commons_2.10;2.6.3!casbah-commons_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-core_2.10;2.6.3!casbah-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-query_2.10;2.6.3!casbah-query_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#casbah-gridfs_2.10;2.6.3!casbah-gridfs_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.github.nscala-time#nscala-time_2.10;0.2.0!nscala-time_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.6.0!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.mongodb#mongo-java-driver;2.11.3!mongo-java-driver.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] joda-time#joda-time;2.1!joda-time.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.joda#joda-convert;1.2!joda-convert.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.specs2#specs2_2.10;2.0!specs2_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.0.0!scalaz-concurrent_2.10.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.0.0!scalaz-effect_2.10.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 98576ms :: artifacts dl 39346ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 548ms :: artifacts dl 24ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
@@ -3922,7 +3315,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 compile produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 compile produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/compile-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
@@ -3976,7 +3369,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 runtime produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 runtime produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/runtime-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
@@ -4048,11 +3441,11 @@
 [0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 test produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 test produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 provided produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 provided produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 optional produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 optional produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/optional-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
@@ -4106,7 +3499,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 compile-internal produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 compile-internal produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/compile-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 12[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
@@ -4160,7 +3553,7 @@
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scalaz#scalaz-core_2.10;7.0.0 / Number of dependencies = 1[0m
 [0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  org.scalaz#scalaz-core_2.10 depends on org.scala-lang#scala-library;2.10.0, doesn't match org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scalaz#scalaz-core_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 runtime-internal produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 runtime-internal produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/runtime-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 15[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-lang#scala-library;2.10.1 / Number of dependencies = 0[0m
 [0m[[0mdebug[0m] [0mSort done for : org.scala-lang#scala-library;2.10.1[0m
@@ -4232,14 +3625,14 @@
 [0m[[0mdebug[0m] [0mSort done for : org.specs2#specs2_2.10;2.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-concurrent_2.10;7.0.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-effect_2.10;7.0.0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 test-internal produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 test-internal produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/test-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 plugin produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 plugin produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/plugin-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 sources produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 sources produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/sources-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 docs produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 docs produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 pom produced in /home/yury/work/projects/experiments/target/resolution-cache/reports/com.immediatus-experiments_2.10/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (98576ms resolve - 39346ms download)[0m
+[0m[[0mdebug[0m] [0m	report for com.immediatus#experiments_2.10;0.1 pom produced in /home/yury/work/projects/javadays13-kiev-scala-workshop/code/target/resolution-cache/reports/com.immediatus-experiments_2.10/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (548ms resolve - 24ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

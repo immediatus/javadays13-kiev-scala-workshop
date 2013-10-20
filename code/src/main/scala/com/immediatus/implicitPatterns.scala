@@ -4,7 +4,7 @@ object implicitPatterns_1 {
   import scala.annotation.implicitNotFound
 
   @implicitNotFound(msg = "type ${T} is not supported.")
-  sealed trait TypeCheaker[T]
+  sealed trait TypeChecker[T]
 
   private object TypeChecker {
     implicit object CharOk extends TypeChecker[Char]
@@ -21,7 +21,7 @@ object implicitPatterns_1 {
 
   object ConstrainedGeneric {
     import TypeChecker._
-    def apply[T: TypeChecker]() = new MyGeneric[T]()
+    def apply[T: TypeChecker]() = new ConstrainedGeneric[T]()
   }
 }
 
@@ -40,9 +40,7 @@ object implicitPatterns_2 {
     }
   }
 
-  def test[A,B,C](start: A = NoArg, end: C = NoArg, duration: B = NoArg)(implicit res: DurationRes[A,B,C]) {
+  def test[A,B,C](start: A = NoArg, end: B = NoArg, duration: C = NoArg)(implicit res: DurationRes[A,B,C]) {
     val (s, e, d) = res.resolve(start, end, duration)
   }
-
-  test(start = 1f, end = 2f)
 }
